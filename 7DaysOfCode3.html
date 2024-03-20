@@ -1,0 +1,46 @@
+<meta charset="UTF-8">
+
+<script>
+
+function mostra(frase){
+
+	document.write("")
+	document.write("<br><br>")
+
+}
+
+var nome = prompt("Olá qual seu nome?");
+
+var area = prompt(nome + " qual área você pretende seguir na programação? Back ou Front end? ");
+
+
+var Back = prompt("Que maravilhoso "+ nome + " e qual framework você quer estudar? C# - 1 ou Java - 2?");
+
+var Front = prompt("Que maravilhoso "+ nome + " e qual framework você quer estudar? React - 3 ou Vue - 4?");
+
+if (Back === 1){
+
+	alert("Que maravilha que você esta estudando C#. Continue asim " + nome + " e vire um expert!");
+} else if (Back ===2) {
+
+	alert("Que maravilha que você esta estudando Java. Continue asim " + nome + " e vire um expert!");
+} else {
+
+	prompt("digite 1 ou 2 novamente")
+}
+
+
+if (Front === 3){
+
+	alert("Que maravilha que você esta estudando React. Continue asim " + nome + " e vire um expert!");
+} else if (Front === 4){
+
+	alert("Que maravilha que você esta estudando Vue. Continue asim " + nome + " e vire um expert!");
+} else {
+
+	prompt("Digite 3 ou 4 novamente");
+}
+
+
+
+</script>
